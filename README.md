@@ -7,7 +7,7 @@ A Retrieval-Augmented Generation (RAG) chatbot built to assist students with cam
 ---
 
 ## 📂 Project Structure
-
+```
 student_support.chatbot.rag/
 │
 ├── faiss_index/           # Prebuilt FAISS vector index files
@@ -15,7 +15,7 @@ student_support.chatbot.rag/
 ├── main.py                # Main script to launch the chatbot
 ├── requirements.txt       # Python dependencies
 └── Chatbot.png            # Screenshot of the UI
-
+```
 ---
 
 ## 🧠 Features
