@@ -46,37 +46,32 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-⸻
-
 ## 🚀 Usage
-	1.	Make sure ggv_faqs.csv contains your FAQ data.
-	2.	Run the chatbot:
+1.	Make sure ggv_faqs.csv contains your FAQ data.
+2.	Run the chatbot:
 ```
 python main.py
 ```
 
 Note: Make sure faiss_index/ is present or build the index using a script (if available).
 
-⸻
-
 ## 📦 Dependencies
 
 Some key libraries (see requirements.txt for all):
-	•	transformers
-	•	sentence-transformers
-	•	faiss-cpu
-	•	pandas
-	•	streamlit or flask (if UI is involved)
-
-⸻
+- transformers
+- sentence-transformers
+- faiss-cpu
+- pandas
+- streamlit or flask (if UI is involved)
 
 ## 💾 Data Format
 
 Your ggv_faqs.csv should look something like:
+```
+question	                           | answer
+-------------------------------------------------------------------------
+How to apply for hostel?	           | Visit the hostel office…
+Where is the admin block located?	   | Next to the main gate…
+```
 
-question	answer
-How to apply for hostel?	Visit the hostel office…
-Where is the admin block located?	Next to the main gate…
-
-
-⸻
+---
